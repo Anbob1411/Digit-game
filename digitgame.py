@@ -86,6 +86,7 @@ tk.Label(root, textvariable=result,
 
 root.mainloop()
 
+
 # def ply2():
 #     p2=input("Enter player-2 number:")
 #     sd2=0
@@ -111,3 +112,23 @@ root.mainloop()
 #     p2=ply2()
 #     if p2:
 #         break
+# cp1=input("Enter player-1 4-digit number:")
+# cp2=input("Enter player-2 4-digit number:")
+
+# def ply1():
+#     p1=input("Enter player-1 number:")
+#     sd1=0
+#     sp1=0
+#     for i in range(4):
+#         if p1[i]==cp2[i]:
+#             sp1+=1
+#     for digit in p1:
+#         if digit in cp2:
+#             sd1+=1
+#     print("Total common digits:", sd1)
+#     print("Matching positions:", sp1)
+#     if sp1==4:
+#         print("YAY! You Won")
+#         return True
+#     return False
+
